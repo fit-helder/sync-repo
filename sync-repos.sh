@@ -3,8 +3,8 @@
 set -e
 
 echo "Setting repo variables"
-repo_origin="$REPO_ORIGIN"
-repo_destin="$REPO_DESTIN"
+repo_origin="https://$REPO_ORIGIN_TOKEN@$REPO_ORIGIN"
+repo_destin="https://$REPO_DESTIN_TOKEN@$REPO_DESTIN"
 
 echo "Create destin dir"
 mkdir /destin
