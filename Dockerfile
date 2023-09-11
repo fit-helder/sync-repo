@@ -9,4 +9,4 @@ WORKDIR /workdir
 
 COPY / .
 
-ENTRYPOINT [ "./azure-pipelines/sync-repos.sh" ]
+ENTRYPOINT [ "sync-repos.sh" ]
