@@ -19,6 +19,6 @@ stages:
               script: |
                 docker build -t sync-repo:latest .
                 docker run -t \
-                  --env REPO_ORIGIN="$REPO_ORIGIN" \
-                  --env REPO_DESTIN="$REPO_DESTIN" \
+                  --env REPO_ORIGIN="$(REPO_ORIGIN)" \
+                  --env REPO_DESTIN="$(REPO_DESTIN)" \
                 sync-repo:latest
