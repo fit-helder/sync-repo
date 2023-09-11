@@ -10,15 +10,16 @@
     - `REPO_DESTIN_TOKEN` : Token de acesso repositório de destino
 
 - Exemplo de `REPO_ORIGIN` e `REPO_DESTIN`
-   - Azure
+    - Azure
         - `dev.azure.com/fitbank/Digital%20Banking%20-%20Credit%20-%20Data%20Office/_git/repository`
         
-   - GitHub
+    - GitHub
         - `github.com/fitbank/repository.git`
 
 - Para pegar o Token de acesso:
-  - Azure
-        - [https://learn.microsoft.com/pt-br/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows#create-a-pat](Criar um PAT)
+    - Azure
+        - [Criar um PAT](https://learn.microsoft.com/pt-br/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows#create-a-pat)
 
-  - GitHub
-        - [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic](Criando um PAT classic) 
+    - GitHub
+        - [Criando um PAT classic](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+
