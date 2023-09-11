@@ -21,4 +21,5 @@ stages:
                 docker run -t \
                   --env REPO_ORIGIN="$(REPO_ORIGIN)" \
                   --env REPO_DESTIN="$(REPO_DESTIN)" \
-                sync-repo:latest
+                sync-repo:latest env
+
