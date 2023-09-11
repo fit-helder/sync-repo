@@ -17,7 +17,7 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                docker build -t sync-repo:latest -f ./azure-pipelines/Dockerfile .
+                docker build -t sync-repo:latest .
                 docker run -t \
                   --env REPO_ORIGIN="$REPO_ORIGIN" \
                   --env REPO_DESTIN="$REPO_DESTIN" \
