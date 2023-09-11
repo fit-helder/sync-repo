@@ -7,6 +7,6 @@ RUN apk add git
 
 WORKDIR /workdir
 
-COPY / .
+COPY sync-repos.sh .
 
-ENTRYPOINT [ "sync-repos.sh" ]
+ENTRYPOINT [ "./sync-repos.sh" ]
