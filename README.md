@@ -11,10 +11,10 @@
 
 - Exemplo de `REPO_ORIGIN` e `REPO_DESTIN`
     - Azure
-        - `dev.azure.com/fitbank/Digital%20Banking%20-%20Credit%20-%20Data%20Office/_git/<nome-do-repository>`
+        - `dev.azure.com/fitbank/Digital%20Banking%20-%20Credit%20-%20Data%20Office/_git/<nome-do-repositório>`
         
     - GitHub
-        - `github.com/Fitbank-Pagamentos-Eletronicos/<nome-do-repository>`
+        - `github.com/Fitbank-Pagamentos-Eletronicos/<nome-do-repositório>`
 
 - Para pegar o Token de acesso:
     - Azure
